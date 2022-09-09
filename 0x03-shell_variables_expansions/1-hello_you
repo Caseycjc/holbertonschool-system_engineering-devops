@@ -1,2 +1,2 @@
 #!/bin/bash
-alias rename= "$USER hello user"
+alias rename= "whoami 'hello user'"
