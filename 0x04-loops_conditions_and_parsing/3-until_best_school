@@ -5,5 +5,4 @@ until true
 do
      echo "Best School"
      ((count++))
-done
-~        
+done     
