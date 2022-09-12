@@ -2,7 +2,9 @@
 #Trying to say Best School 10 times and saying hi on the 9th
 n=1
 while [ $n -le 10 ]; do
-    if [[ "Best School" =9 "hi" ]]; then	
-    echo "Best School"
+    if [[ n=9 ]]; then	
+    	echo "Best School"
+    	echo "Hi"
+    fi
     n=$(( n+1 ))
 done
