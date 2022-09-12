@@ -1,6 +1,5 @@
 #!/usr/bin/env bash
 #Making a clock
-
 HOURS=0
 while [ $HOURS -lt 13 ]
 do
