@@ -1,12 +1,13 @@
 #!/usr/bin/env bash
 #Making a clock
-n=1
+n=0
 while [ $n -lt 12 ];
 do
-	echo "Hour: $n-1"
-	while [ $n -lt 60 ]
-	do
-		echo "$n" 
-	done
+	echo "Hour: $n"
 	((n++))
 done
+	while [ $n -lt 60 ]
+	do
+		echo "$n"
+		((n++))
+	done		
