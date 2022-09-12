@@ -1,10 +1,11 @@
 #!/usr/bin/env bash
 #Trying to say Best School 10 times and saying hi on the 9th
 n=1
-while [ $n -le 10 ]; do
-    if [[ n=9 ]]; then	
-    	echo "Best School"
-    	echo "Hi"
-    fi
-    n=$(( n+1 ))
+while [ $n -le 10 ]; 
+do
+	echo "Best School"
+    	if [ $n -eq 9 ]; then 
+    		echo "Hi"
+    	fi
+    	n=$(( n+1 ))
 done
