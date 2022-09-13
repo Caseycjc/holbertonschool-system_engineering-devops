@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+#Listing content
+for f in *; do
+echo "File -> $f"
+done
