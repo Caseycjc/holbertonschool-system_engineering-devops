@@ -1,2 +1,2 @@
 #!/bin/bash
-echo $(( 0xA$DECIMAL ))
+echo $(( obase=16; $DECIMAL ))
