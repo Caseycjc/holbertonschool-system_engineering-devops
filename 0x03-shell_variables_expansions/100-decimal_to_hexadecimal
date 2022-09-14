@@ -1,2 +1,2 @@
 #!/bin/bash
-echo $((  $DECIMALxA ))
+echo $(( 0x$DECIMAL ))
