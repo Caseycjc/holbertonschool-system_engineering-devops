@@ -1,10 +1,10 @@
 #!/usr/bin/env bash
 # PINGS IP ADDRESS RECEIVED AS ARGUMENT 5X
 
-num_of_times=5
-
-if [ $# -eq 0 ]; then
-  echo "Usage: 5-is_the_host_on_the_network {IP_ADDRESS}"
-else
-  ping -c $num_of_times "$1"
+if [ $# -eq 0 ]
+then
+    echo "Usage: $0 {IP_ADDRESS}"
+    exit 1
 fi
+
+ping -c 5 "$1"
