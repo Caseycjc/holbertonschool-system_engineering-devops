@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-#Bash script that pings an IP address passed as an argument.
+# PINGS IP ADDRESS RECEIVED AS ARGUMENT 5X
 
 num_of_times=5
 
